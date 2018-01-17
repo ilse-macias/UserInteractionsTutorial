@@ -87,7 +87,7 @@ namespace UserInteractionsTutorial
             _actions.KeyDown(Keys.Control).KeyDown(Keys.Shift).SendKeys("i").Perform(); //ctrl + shift + i
 
             _actions.KeyUp(Keys.Control).KeyUp(Keys.Shift).Perform();
-            // _driver.Navigate().GoToUrl("");
+   //         _driver.Navigate().GoToUrl("");
         }
 
         [Test]
